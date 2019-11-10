@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>公共页</title>
+    <link rel="stylesheet" href="../swiper-5.2.0/package/css/swiper.min.css">
+    <style>
+        html, body {
+          position: relative;
+          height: 100%;
+        }
+        body {
+          background: #eee;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color:#000;
+          margin: 0;
+          padding: 0;
+        }
+        .swiper-container {
+          width: 100%;
+          height: 100%;
+        }
+        .swiper-slide {
+          background-position: center;
+          background-size: cover;
+        }
+        .swiper-pagination-bullet {
+      background: white;
+      opacity: 1;
+    }
+
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+      box-shadow: 0 0 0 4px #dfcead;
+      background: #a7936e;
+    }
+
+    .swiper-button-next {
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      background-color: #E2C199;
+      right: 20px;
+    }
+
+    .swiper-button-next::after {
+      content: "";
+      background: url(../img/icon-normal-s33e647f656-a21248af33.webp);
+      width: 50px;
+      height: 50px;
+      background-position: 0 -5628px;
+    }
+
+    .swiper-button-prev {
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      background-color: #E2C199;
+      left: 20px;
+    }
+
+    .swiper-button-prev::after {
+      content: "";
+      background: url(../img/icon-normal-s33e647f656-a21248af33.webp);
+      width: 50px;
+      height: 50px;
+      background-position: 0 -5408px;
+    }
+      </style>
+      <link rel="stylesheet" href="./公共头2.css">
+</head>
+<body>
+    <div class="nav" id="nnn"></div>
+    <div class="big">
+        <div class="big_cen">
+         
+            
+            
+        </div>
+    </div>
+</body>
+</html>
+<script src="./jquery-3.2.1.min.js"></script>
+<script src="../swiper-5.2.0/package/js/swiper.min.js"></script>
+
+<script>
+    $("#nnn").load("./头部.html")
+</script>
+<script src="./公共头2.js"></script>
